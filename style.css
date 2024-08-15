@@ -1,0 +1,345 @@
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    margin: 0;
+    /* Reset default margin */
+    background: linear-gradient(109.6deg, rgb(255, 221, 225) 11.2%, rgb(255, 255, 255) 92.2%);
+    overflow: auto;
+    /* Prevent horizontal scrolling */
+    height: 100%;
+    font-family: "Edu NSW ACT Foundation", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.navbar {
+    width: 100%;
+    height: 10%;
+    background: linear-gradient(106.7deg, rgb(251, 0, 145) -2.6%,
+     rgb(251, 134, 145) 31%, rgb(251, 158, 145) 45.8%, rgb(251, 218, 145) 100.1%);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: "Patrick Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 8px;
+}
+
+body {}
+
+/*Manily changed css properties*/
+
+.popupoverlay1,
+.popupoverlay2,
+.popupoverlay3,
+.popupoverlay4,
+.popupoverlay5,
+.popupoverlay6,
+.popupoverlay7,
+.popupoverlay8,
+.popupoverlay9,
+.popupoverlay10 {
+    position: fixed;
+    background-color: black;
+    opacity: 0.9;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.popupoverlay1,
+.popupoverlay2,
+.popupoverlay3,
+.popupoverlay4,
+.popupoverlay5,
+.popupoverlay6,
+
+.popupoverlay8,
+.popupoverlay9,
+.popupoverlay10 {
+    display: none;
+}
+.popupbox7{
+    display: block;
+}
+
+.popupbox2,
+.popupbox1,
+.popupbox3,
+.popupbox4,
+.popupbox5,
+.popupbox6,
+
+.popupbox8,
+.popupbox9,
+.popupbox10 {
+    background-color: white;
+    padding: 50px;
+    width: 50%;
+    height: auto;
+    position: fixed;
+    border-radius: 15px;
+    top: 50%;
+    /* Move to the vertical center */
+    left: 50%;
+    /* Move to the horizontal center */
+    transform: translate(-50%, -50%);
+    /* Adjust to center the element */
+    z-index: 2;
+}
+.popupbox7{
+    background-image: url('A.jpg'); /* Replace 'your-image.jpg' with the path to your image */
+
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent image from repeating */
+    
+    padding: 50px;
+    width: 60%;
+    height: auto;
+    position: fixed;
+    border-radius: 15px;
+    top: 50%;
+    /* Move to the vertical center */
+    left: 50%;
+    /* Move to the horizontal center */
+    transform: translate(-50%, -50%);    
+}
+.popupbox2,
+.popupbox1,
+.popupbox3,
+.popupbox4,
+.popupbox5,
+.popupbox6,
+
+.popupbox8,
+.popupbox9,
+.popupbox10 {
+    display: none;
+}
+#cancel1 {margin-top: 5px;border-radius: 10px;background-color: pink;border: none;padding: 10px;bottom: 10px;
+font-size: 10px;font-family: "Edu NSW ACT Foundation", cursive;color: black;font-weight: bolder;cursor: pointer;}
+
+#cancel1:hover {
+    background-color: black;color: white;transition: 2;}
+#cancel2 {margin-top: 5px;border-radius: 10px;background-color: pink;border: none;padding: 10px;bottom: 10px;
+font-size: 10px;font-family: "Edu NSW ACT Foundation", cursive;color: black;font-weight: bolder;cursor: pointer;}
+
+#cance2:hover {
+    background-color: black;color: white;transition: 2;}
+#cancel3 {margin-top: 5px;border-radius: 10px;background-color: pink;border: none;padding: 10px;bottom: 10px;
+font-size: 10px;font-family: "Edu NSW ACT Foundation", cursive;color: black;font-weight: bolder;cursor: pointer;}
+
+#cancel3:hover {
+    background-color: black;color: white;transition: 2;}
+#cancel4 {margin-top: 5px;border-radius: 10px;background-color: pink;border: none;padding: 10px;bottom: 10px;
+font-size: 10px;font-family: "Edu NSW ACT Foundation", cursive;color: black;font-weight: bolder;cursor: pointer;}
+
+#cancel4:hover {
+    background-color: black;color: white;transition: 2;}
+#cancel5 {margin-top: 5px;border-radius: 10px;background-color: pink;border: none;padding: 10px;bottom: 10px;
+font-size: 10px;font-family: "Edu NSW ACT Foundation", cursive;color: black;font-weight: bolder;cursor: pointer;}
+
+#cancel5:hover {
+    background-color: black;color: white;transition: 2;}
+#cancel6 {margin-top: 5px;border-radius: 10px;background-color: pink;border: none;padding: 10px;bottom: 10px;
+font-size: 10px;font-family: "Edu NSW ACT Foundation", cursive;color: black;font-weight: bolder;cursor: pointer;}
+
+#cancel6:hover {
+    background-color: black;color: white;transition: 2;}
+#cancel7 {margin-top: 5px;border-radius: 10px;background-color: pink;border: none;padding: 10px;bottom: 10px;
+font-size: 10px;font-family: "Edu NSW ACT Foundation", cursive;color: black;font-weight: bolder;cursor: pointer;}
+
+#cancel7:hover {
+    background-color: black;color: white;transition: 2;}
+
+/* END OF THE STYLING POPUP*/
+.READ {
+    width: 500px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 15px;
+    color: pink;
+    text-shadow: black;
+    font-family: "Edu NSW ACT Foundation", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+}
+
+
+
+.about ,.about1{
+    padding-top: 5px;
+    text-align: start;
+
+    font-family: "Kalam", cursive;
+    font-style: normal;
+    font-size: 10px;
+    color: black;
+    text-transform: capitalize;
+    
+
+}
+.about1{
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding-top: 5px;
+    text-align: start;
+    font-family: "Kalam", cursive;
+    font-style: normal;
+    font-size:15px;
+    font-weight: bold;    
+    text-transform: capitalize;
+}
+
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.book-container {
+
+    padding: 10px;
+    width: 30%;
+    height: 10%;
+    background: radial-gradient(circle at 1.2% 5.3%, rgb(255, 85, 166) 0%, rgb(255, 154, 98) 100.2%);
+    color: white;
+    border-radius: 15px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.book-container h2 {
+    color: white;
+    text-align: center;
+    align-items: center;
+
+
+}
+
+.book-container button {
+    display: inline;
+    background-color: #FD6569;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    border: none;
+    color: black;
+    cursor: pointer;
+
+
+}
+
+
+
+
+
+@media screen and (min-width: 600px) {
+    h1 {
+        font-weight: 200;
+        color: white;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .book-container {
+       
+        color: white;
+        font-size: 10px;
+        
+    }
+
+    .book-container button {
+        font-size: 12px;
+    }
+
+    .READ {
+        font-size: 15px;
+    }
+
+    .about {
+        font-size: 10px;
+    }
+    .about1{
+        font-size: 10px;
+    }
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 12px;
+    }
+    .book-container {
+        width: 30%;
+        font-size: 10px;
+    }
+    .book-container h2 {
+        font-size: 16px;
+    }
+    .book-container button {
+        font-size: 12px;
+    }
+    .READ {
+        font-size: 16px;
+    }
+    .about {
+        font-size: 12px;
+    }
+    .about1{
+        font-size: 12px;
+    }
+    #cancel1,
+    #cancel2,
+    #cancel3,
+    #cancel4,
+    #cancel5,
+    #cancel6,
+    #cancel7 {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .h1{
+        font-size: 10px;
+    }
+    .container {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items horizontally */
+    }
+    .book-container {
+        width: 90%;
+    }
+    .popupbox {
+        width: 80%;
+    }
+}
